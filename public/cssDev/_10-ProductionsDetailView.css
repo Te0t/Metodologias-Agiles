@@ -1,0 +1,21 @@
+.parrafo__descripcion{
+    width: 66%;
+    font-size: x-large;
+    text-transform: none;
+    color: var(--colorBlanco);
+}
+
+.flex__container--imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div>img{
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

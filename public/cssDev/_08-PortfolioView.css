@@ -1,0 +1,23 @@
+.container__cajas{
+    border: 2px ;
+    display: flex;
+    flex-wrap: wrap;        
+}
+
+.h1--briefcase{
+    margin-top: 200px;    
+    margin-left: 150px;    
+    color:var(--colorBlanco);
+    text-transform: uppercase;   
+    text-decoration:  underline  var(--colorAmarillo);    
+    font-size:x-large;        
+}
+
+.img--briefcase{    
+    height: 60vh;
+    left: 100vh;
+    right: 100px;
+    width: 45vw;
+    margin-bottom: 15px;
+    object-fit: cover;
+}

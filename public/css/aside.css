@@ -1,0 +1,97 @@
+.layout__sidebar {
+    width: 390px;
+    display: flex;
+    position: fixed;
+    min-height: 100vh;
+    padding: 0 0 1rem 1rem;
+    flex-direction: column;
+    /* width: 420px; */
+}
+
+.layout__sidebar--section {
+    padding-top: 1rem;
+}
+
+.sidebar__logo--text {
+    text-align: end;
+    margin: 1rem 1rem 0 0;
+}
+
+.sidebar__logo--text p {
+    margin-bottom: 0;
+}
+
+.sidebar__logo--text strong { 
+    font-size: 1.5rem;
+}
+
+.sidebar__logo--links {
+    padding: 0;
+    margin: 30px 0 130px 10px;
+}
+
+.container__lateral {
+    left: 450px;
+    position: fixed;
+    min-height: 100vh;
+    border-right: solid 12px var(--colorAmarillo);
+}
+
+.container__lateral--final {
+    left: 460px;
+    position: fixed;
+    min-height: 100vh;
+    border-right: 3px solid var(--colorGrisOscuro);
+}
+
+.sidebar__logo--individual {
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 188px;
+    border: 1px solid var(--colorAmarillo);
+}
+
+.sidebar__logo--individual img {
+    width: 170px;
+    height: 170px;
+    padding: 1rem;
+}
+
+.sidebar__logo--individual figure {
+    text-align: center;
+}
+
+.sidebar__logo--links p  {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.sidebar__logo--links p a {
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    text-decoration: underline var(--colorAmarillo);
+}
+
+.sidebar__logo--barra {
+    right: 0;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+}
+
+.sidebar__social {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.sidebar__social figure:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.sidebar__social figure {
+    margin: 0;
+}
+
+.sidebar__social figure img {
+    width: 50px;
+}

@@ -1,0 +1,37 @@
+.img__vistas--{
+    border: 1px solid var(--colorGrisOscuro);
+    margin: 10px 0px 0px 0px;
+    width: 45vw;
+    height: 60vh;
+    /* width: 40vw; */
+}
+
+/* .layout__main--global{
+    display: flex;
+} */
+
+.layout__productions--flex {
+    display: flex;
+}
+
+.img__productions {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.enlace__detalle_producciones{
+    font-size: x-large;
+    color: var(--colorBlanco);
+    text-decoration: underline var(--colorAmarillo);
+}
+
+.detalle__producciones--{
+    width: 20vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}

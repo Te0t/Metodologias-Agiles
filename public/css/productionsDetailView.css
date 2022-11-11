@@ -1,0 +1,177 @@
+.parrafo__descripcion{
+    width: 87%;
+    font-size: x-large;
+    text-transform: none;
+    /* color: var(--colorBlanco); */
+    color: #CBCAC9;;
+}
+
+.img__productions.gemelaClass {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex__container--imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex__container--imagenesH img {
+    width: 40vw;
+    height: 60vw;
+}
+
+div>img{
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo__descripcion{
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.titulo__descripcion--burger {
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+}
+
+.titulo__descripcion--skins {
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+}
+
+.parrafo__descripcion--h {
+    color: #CBCAC9;
+    margin-left: 20px;
+}
+
+.flex__container--imagenesH {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice__cream--img>img{
+    width: 700px;
+    height: 1100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* ---------------------- */
+
+.flex__container--imagenesS {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+/* ------------------ */
+
+.school__images img {
+    width: 100%;
+}
+
+.parrafo__descripcion--puntos {
+    color: #CBCAC9;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.flex__container--imagenes .Puntos_Fijos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Puntos_Fijos>img{
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+}
+
+.Titulo__descripcion{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+/* ------------------- */
+
+.parrafo__descripcion--alicante {
+    margin-bottom: 0;
+    line-height: normal;
+    color: #CBCAC9;
+}
+
+.flex__container--imagenes .alicante{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.alicante>img{
+    width: 1000px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo__descripcion--a {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.flex__container--imagenes2 img {
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------ */
+
+.parrafo__descripcion1 {
+    color: var(--colorBlanco);
+    font-size: 30px;
+    margin: 4% 0px 10px 4% ;
+}
+
+.flex__container--imagenes .museo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.parrafo__descripcion--- {
+    font-size: 17px;
+    color: #CBCAC9;
+    margin: 0px 0px 5% 4%;
+    /* color: var(--colorGrisOscuro); */
+}
+
+.museo>img{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65vw;
+    height: 70vh;
+    margin-bottom: 4%;
+    border: 2px solid var(--colorGrisOscuro);
+}

@@ -1,0 +1,9 @@
+:root {
+    --colorGris: #CBCAC9;
+    --colorNegro: #000000;
+    --colorBlanco: #FFFFFF;
+    --colorAmarillo: #FFD000;
+    --colorGrisOscuro: #62676A;
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --fuenteSecundaria: 'Fjalla One', sans-serif;
+}

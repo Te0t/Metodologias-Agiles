@@ -1,0 +1,108 @@
+.lateral__lienzo{
+    color: var(--colorNegro);
+    background-color: var(--colorAmarillo);
+    height: 100vh;
+    width: 23vw;
+    /* width: 30vw; */
+    position: absolute;
+}
+
+.centro__lienzo{
+    margin-top: 65%;
+    margin-left: 15%;
+    /* margin-top: 50%; */
+    /* margin-left: 40%; */
+    
+}
+
+.ubicacion__texto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;    
+}
+
+.ubicacion__texto img{
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+.telefono__texto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.telefono__texto img{
+    margin-right: 15px;
+}
+
+.correo__texto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.correo__texto img{
+    margin-right: 15px;
+}
+
+.formulario__registro{
+    background-color: black;
+    margin-left: 27vw;
+    height: 100vh;
+    position: absolute;
+    width: 70vw;
+    color: aliceblue;
+}
+.titulo__contactame{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    width: 100%;
+}
+
+.username__reg{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 10vh;
+    
+}
+.username__reg input{
+    border-style: none;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    border-bottom: #41403f solid 1px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+.asunto__reg{
+    padding-left: 50px;
+    
+}
+.asunto__reg input{
+    background: none;
+    border: none;
+    border-bottom: #41403f solid 1px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+.mensaje__reg{
+    padding-left: 50px;
+}
+.mensaje__reg input{
+    background: none;
+    border: none;
+    border-bottom: #41403f solid 1px;
+    margin-top: 20px;
+    outline: none;
+    width: 500px;
+}

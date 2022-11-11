@@ -1,0 +1,23 @@
+html {
+    /* font-size: 62.5%; */
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    text-transform: capitalize;
+    color: var(--colorAmarillo);
+    background-color: var(--colorNegro);
+    font-family: var(--fuentePrincipal), var(--fuenteSecundaria);
+}
+
+img {
+    max-width: 100%;
+}
